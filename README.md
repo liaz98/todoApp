@@ -1,1 +1,2 @@
 # todoApp :clipboard:
+https://carbon.now.sh/?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=a11y-dark&wt=none&l=python&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=class%2520TaskDelete%28LoginRequiredMixin%252C%2520DeleteView%29%253A%250A%2520%2520%2520%2520model%2520%253D%2520Task%250A%2520%2520%2520%2520context_object_name%2520%253D%2520%27task%27%250A%2520%2520%2520%2520success_url%2520%253D%2520reverse_lazy%28%27tasks%27%29
