@@ -16,20 +16,8 @@ python manage.py runserver
 
 ## Database
 model.py 
-```python
-class Task(models.Model):
-    user = models.ForeignKey(User, on_delete=models.CASCADE, null=True, blank=True)
-    title = models.CharField(max_length=200, null=True, blank=True)
-    description = models.TextField(null=True, blank=True)
-    complete = models.BooleanField(default=False)
-    create = models.DateTimeField(auto_now_add= True)
+![carbon](https://user-images.githubusercontent.com/33596154/138088443-ea08294c-9833-4394-8a5a-e671238c6c1a.png)
 
-    def __str__(self):
-        return self.title
-
-    class Meta:
-        ordering = ['complete']
-```
 ## Views
 view.py
 
