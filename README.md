@@ -22,54 +22,14 @@ model.py
 view.py
 
 ### Login view
-```python
-class CustomLoginView(LoginView):
-    template_name = 'todolist/login.html'
-    fields = '__all__'
-    redirect_authenticated_user = True
+![carbon (1)](https://user-images.githubusercontent.com/33596154/138088578-6711256b-33cd-4397-a8f7-4fdf8382cb22.png)
 
-    def get_success_url(self):
-        return reverse_lazy('tasks')
-```
 ### Register view
-```python
-class RegisterPage(FormView):
-    template_name = 'todolist/register.html'
-    form_class = UserCreationForm
-    redirect_authenticated_user = True
-    success_url = reverse_lazy('tasks')
+![carbon (2)](https://user-images.githubusercontent.com/33596154/138088672-788e04a6-389d-49ab-800e-bc2d8f648ea9.png)
 
-    def form_valid(self, form):
-        user = form.save()
-        if user is not None:
-            login(self.request, user)
-        return super(RegisterPage, self).form_valid(form)
-
-    def get(self, *args, **kwargs):
-        if self.request.user.is_authenticated:
-            return redirect('tasks')
-        return super(RegisterPage, self).get(*args, **kwargs)
-```
 ### Task List view
-```python
-class TaskList(LoginRequiredMixin, ListView):
-    model = Task
-    context_object_name = 'tasks'
-    template_name = 'todolist/tasks.html'
+![carbon (3)](https://user-images.githubusercontent.com/33596154/138088703-90284ba7-aa72-4a2b-9d2e-7ad54145139f.png)
 
-    def get_context_data(self, *, object_list=None, **kwargs):
-        context = super().get_context_data(**kwargs)
-        context['tasks'] = context['tasks'].filter(user=self.request.user)
-        context['count'] = context['tasks'].filter(complete=False).count()
-        search_input = self.request.GET.get('search-area') or ''
-
-        if search_input:
-            context['tasks'] = context['tasks'].filter(title__startswith=search_input)
-
-        context['search_input'] = search_input
-
-        return context
-```
 ### Task Create view
 ```python
 class TaskCreate(LoginRequiredMixin, CreateView):
