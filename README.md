@@ -34,15 +34,18 @@ view.py
 
 ### Task List view
 ![carbon (3)](https://user-images.githubusercontent.com/33596154/138088703-90284ba7-aa72-4a2b-9d2e-7ad54145139f.png)
+### Task Detail view
+![carbon (4)](https://user-images.githubusercontent.com/33596154/138212692-8c2eb78c-39fc-421f-906a-59b54c6b3b80.png)
 
 ### Task Create view
 
-![carbon (4)](https://user-images.githubusercontent.com/33596154/138088847-79b5b585-ba64-4c8a-b85e-b3c3edb1670b.png)
+![carbon (5)](https://user-images.githubusercontent.com/33596154/138212583-d1e1d736-b63e-4a79-9a24-a884760abf11.png)
+
 
 ### Task Update view
-![carbon (5)](https://user-images.githubusercontent.com/33596154/138088866-b804d2f8-9293-465e-9d1c-1d531e2c0aaf.png)
+![carbon (6)](https://user-images.githubusercontent.com/33596154/138212625-93dcbc96-d57f-4482-b6e8-d403a7a9ce7b.png)
 
 
 ### Task Delete view
-![carbon (6)](https://user-images.githubusercontent.com/33596154/138088881-ffa90860-76f0-4463-b8ec-6dafc97f92a5.png)
+![carbon (7)](https://user-images.githubusercontent.com/33596154/138212656-1807df54-7fa1-41cf-b8a8-757dabc3437f.png)
 
