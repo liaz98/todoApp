@@ -2,7 +2,7 @@
 
 TODO App is a task management app to help you stay organized and manage your day-to-day.
 
-![Screenshot 2021-10-20 170417](https://user-images.githubusercontent.com/33596154/138212488-0333449d-5a2b-42b5-9323-8c8c944f0ad0.jpg)
+![Screenshot 2021-10-20 170417](https://user-images.githubusercontent.com/33596154/138212488-0333449d-5a2b-42b5-9323-8c8c944f0ad0.jpg) ![Screenshot 2021-10-20 170435](https://user-images.githubusercontent.com/33596154/138212497-601d6cf2-55eb-4ee1-9107-eefec05399ca.jpg)
 ![Screenshot 2021-10-20 170435](https://user-images.githubusercontent.com/33596154/138212497-601d6cf2-55eb-4ee1-9107-eefec05399ca.jpg)
 ![Screenshot 2021-10-20 170500](https://user-images.githubusercontent.com/33596154/138212508-59875c89-c9c7-486e-9e51-bcf2b24d1065.jpg)
 
