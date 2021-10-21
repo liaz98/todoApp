@@ -14,7 +14,8 @@ Clone the repo to install the app
 ```bash
 git clone https://github.com/liaz98/todoApp.git
 ```
-To run the command
+
+Run the command
 ```bash
 python manage.py runserver
 ```
